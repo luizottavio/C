@@ -5,5 +5,5 @@ void main() {
     scanf("%i", &num);
     char ante = num - 1;
     char suce = num + 1;
-    printf("\nAnalisando o número %i, seu antecessor é %i e seu sucessor é %i.", num, ante, suce);
+    printf("Analisando o número %i, seu antecessor é %i e seu sucessor é %i.\n", num, ante, suce);
 }

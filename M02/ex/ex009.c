@@ -14,6 +14,6 @@ void main() {
 
     float media = (nota1 + nota2) / 2;
 
-    printf("O aluno %s tirou %.1f e %.1f e ficou com média %.1f\n", nome, nota1, nota2, media);
+    printf("O aluno %s tirou %.1f e %.1f.\nE ficou com média %.1f.\n", nome, nota1, nota2, media);
 }
 

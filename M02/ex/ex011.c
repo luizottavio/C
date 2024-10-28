@@ -8,5 +8,5 @@ void main() {
     // impar = (num/2!=0)?num;
     int par = num;
 
-    printf("O número que você digitou é %s", (num%2==0)?"PAR":"ÍMPAR");
+    printf("O número %i que você digitou é %s\n", num, (num%2==0)?"PAR":"ÍMPAR");
 }
