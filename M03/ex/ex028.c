@@ -16,18 +16,24 @@ void main() {
 
     char opcao;
     printf("Digite sua opção => ");
-    scanf("%s", &opcao);
-    printf("%s", opcao);
-
-
+    scanf(" %c", &opcao);
 
     switch (opcao) {
-    case 1:
-        printf("O resultado de %i + %i é igual a %i", n1, n1, n1+n2);
-        break;
+        case '+':
+            printf("O resultado de %i + %i é igual a %i", n1, n2, n1 + n2);
+            break;
+        case '-':
+            printf("O resultado de %i - %i é igual a %i", n1, n2, n1 - n2);
+            break;
+        case '*':
+            printf("O resultado de %i * %i é igual a %i", n1, n2, n1 * n2);
+            break;
+        case '/':
+            printf("O resultado de %i / %i é igual a %i", n1, n2, n1 / n2);
+            break;
 
-    default:
-        printf("Erro!");
+        default:
+            printf("ERRO função não definida!\n");
     }
 
 }
