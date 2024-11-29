@@ -12,11 +12,11 @@ void main() {
 
     if (media>=7) {
         printf("-------------------------------------------");
-        printf("\nMEUS PARABÉNS! A sua média final foi %.1f", media);
+        printf("\nMEUS PARABÉNS! A sua média final foi %.2f", media);
         printf("\n-----------------------------------------\n");
     } else {
         printf("---------------------------");
-        printf("\nA sua média final foi %.1f", media);
+        printf("\nA sua média final foi %.2f", media);
         printf("\n---------------------------\n");
     }
 }
