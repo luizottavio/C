@@ -11,6 +11,7 @@ void main() {
     printf("============= CINEMA ESTUDONAUTA =============");
     printf("\nHORÁRIO DO FILME: 19 - PREÇO DO INFRESSO: R$20");
     printf("\n----------------------------------------------");
+    printf("\nHorario atual %i\n", horas);
     printf("\nQuanto dinheiro você tem? R$");
     scanf("%i", &saldo);
 
